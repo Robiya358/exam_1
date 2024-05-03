@@ -1,0 +1,8 @@
+#6 misol
+
+number = int(input("Raqam kiriting: "))
+
+if number % 2 == 0:
+    print(number, "juft son")
+else:
+    print(number, "juft son emas")

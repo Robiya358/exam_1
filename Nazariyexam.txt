@@ -1,0 +1,49 @@
+1)misol
+Python tupllar (tuples), royhatlar (lists) va lug'atlar (dictionaries) kabi ma'lumotlar tuzilmalarini o'z ichiga oladi.
+
+  masalan:
+
+(tuple)
+hituple = ("Good", "moorning")
+
+(lists)
+namelist = ("Anisa", "Kamila", "Denis")
+
+(dictionaries)
+usercar ={'make': 'bmw','model': 'fit','year': 1930}
+
+2) misol
+(And) operatori ikkala operands rost bo'lsa, True ni qaytaradi, aks holda False ni qaytaradi. (Or) agar bitta donayam operand rost bo'lsa True ni qaytaradi, aks holda False ni qaytaradi. "not" operatori o'z operandining mantiqiy holatini o'zgartiradi.
+
+
+3) misol
+Git bu bir vaqtning o'zida bir nechta ishlab chiquvchilarga loyiha fayllaridagi o'zgarishlarni saqlash va kuzatish imkonini beruvchi tizim
+
+Git add - indeksga fayllarni qo'shish
+Git status - repostriyni statusini tekshirish
+Git commint - faylarni repoztriyga qoshish
+Git freeze - bu filiallarni arxivlaydigan va tiklaydigan git kengaytmasi
+Git clone - kompyuterga kochirish
+
+4) misol
+Init komandasi Python class ning ichida atributlarining boshlang'ich qiymatlarini o'rnatish uchun ishlatiladi
+
+  masalan:
+
+class cats():
+   def __init__(self, breed):
+
+5) misol
+ Inheritance - bu mavjud class bilan yangi class yaratishga imkon beradigan object yo'naltirilgan dasturlash mexanizmi.
+
+  masalan:
+
+class Animal():
+  def __init__(self, name):
+        self.name = name
+
+class Cat(Animal):
+    def __init__(self, name, breed):
+          self.breed = breed
+		  self.name = name
+

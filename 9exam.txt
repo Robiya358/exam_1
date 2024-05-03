@@ -1,0 +1,44 @@
+#9) misol
+class Calculator:
+    def __init__(self):
+        self.result = 0
+
+    def add(self, num1, num2):
+        self.result = num1 + num2
+
+    def subtract(self, num1, num2):
+        self.result = num1 - num2
+
+    def multiply(self, num1, num2):
+        self.result = num1 * num2
+
+    def divide(self, num1, num2):
+        if num2 == 0:
+            print("0 ga bolish mumkun emas")
+        else:
+            self.result = num1 / num2
+
+    def clear(self):
+        self.result = 0
+
+    def get_result(self):
+        return self.result
+
+
+calculator = Calculator()
+
+
+calculator.add(50, 2)
+print(calculator.get_result())
+
+
+calculator.subtract(67, 9)
+print(calculator.get_result())
+
+
+calculator.multiply(10, 6)
+print(calculator.get_result())
+
+
+calculator.divide(96, 5)
+print(calculator.get_result())

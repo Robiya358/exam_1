@@ -1,0 +1,9 @@
+#10) misol
+try:
+    first = float(input("Birinchi raqam kiriting "))
+    second = float(input("Ikkinchi raqam kiriting "))
+    print(f"{first} divided by {second} is {first / second}")
+except ValueError:
+    print("Raqam kiritish shart!")
+except ZeroDivisionError:
+    print("0 ga bolish mumkun emas")
